@@ -1,0 +1,190 @@
+@media (max-width: 767px) {
+  .home .links {
+    position: relative;
+    width: 100%;
+  }
+  .links i {
+    display: inline;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: -40px;
+    font-size: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  .logo {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .links ul {
+    visibility: hidden;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(63, 61, 61);
+  }
+  .home .links i:hover + ul {
+    visibility: visible;
+  }
+  .links a {
+    padding: 12px 0;
+  }
+  .links ul li {
+    display: block;
+    width: 100%;
+    border-bottom: 0.5px solid #58575769;
+  }
+  .container {
+    width: 100%;
+  }
+  .home .text h1 {
+    font-size: 33px;
+  }
+  .home .text h4 {
+    font-size: 15px;
+  }
+  span.animation {
+    font-size: 15px;
+  }
+  .about .image-box {
+    width: 100%;
+    border: none;
+  }
+  .about .image {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .about .container {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .about .text-box {
+    float: right;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .about .text-information .part-1 {
+    float: left;
+    width: 100%;
+  }
+  .about .text-information .part-2 {
+    margin-top: 18px;
+    float: left;
+    width: 100%;
+  }
+  .about .buttons .btn-1 {
+    padding: 12px 12px;
+  }
+  .about .buttons .btn-2 {
+    padding: 12px 12px;
+  }
+  .services .card {
+    width: 100%;
+  }
+  .services h2 {
+    margin-bottom: 50px;
+  }
+  .services .container {
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .portfolio .cards .card {
+    width: 100%;
+  }
+  .portfolio .cards {
+    margin-bottom: 50px;
+  }
+  .portfolio .counter-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .portfolio .counter-item i + span {
+    font-size: 22px;
+  }
+  .portfolio .container {
+    margin-bottom: 50px;
+  }
+  .portfolio .category {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .portfolio .category a {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .feedback .image {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .feedback .image img {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .feedback .text {
+    float: right;
+    width: 100%;
+    margin-right: 0;
+  }
+  .feedback .container {
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .blog .container {
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .blog .blog-item {
+    float: left;
+    width: 100%;
+    padding: 15px;
+  }
+  .contact .container {
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .contact .inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact .first-section .name {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .contact .first-section .email {
+    width: 100%;
+  }
+  .footer .container {
+    width: 85%;
+  }
+  .client::after {
+    border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff305b;
+    border-style: solid;
+    border-width: 90px;
+    border-top-left-radius: 5px;
+    content: "";
+    height: 0px;
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 0px;
+    z-index: 1;
+  }
+}

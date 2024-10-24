@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>Assignment 2(Form) Design</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset style="background-color: #A52A2C;">
+            <legend style="background-color: #4977a8;">
+                <h2>Personal Data</h2>
+            </legend>
+            <br>
+            <br>
+            <fieldset style="background-color: #D9A51E;">
+                <legend style="background-color: #6694EA;">
+                    <br>
+                    <h5>Your Name</h5>
+                    <br>
+                </legend>
+                <br>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="firstName">first name</label>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <input type="text" name="firstName" id="firstName" placeholder="ex ahmed">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="secondName">second name</label>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <input type="text" name="secondName" id="secondName" placeholder="ex bahnasy">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="phone">your phone</label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="tel" name="Phone" id="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="email" name="Email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">password</label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="password" name="Password" id="password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="re-password">re-password</label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="password" name="re-password" id="re-password" required>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <br>
+            <input type="checkbox" id="student" name="Status" value="Student">
+            <label for="student">Student</label>
+            <br>
+            <input type="checkbox" id="graduated" name="Status" value="Graduated">
+            <label for="graduated">Graduated</label>
+            <br>
+            <br>
+            <br>
+            <select name="Select">
+                <optgroup label="Group 1">
+                    <option value="Option 1.1" selected>Option 1.1</option>
+                </optgroup>
+                <optgroup label="Group 2">
+                    <option value="Option 2.1">Option 2.1</option>
+                    <option value="Option 2.2">Option 2.2</option>
+                </optgroup>
+                <optgroup label="Group 3" disabled>
+                    <option value="Option 3.1">Option 3.1</option>
+                    <option value="Option 3.2">Option 3.2</option>
+                    <option value="Option 3.3">Option 3.3</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <button>
+                <img src="./images/submit.png" alt="submit_img" width="50">
+            </button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

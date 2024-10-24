@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.special-p {
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.9;
+}
+
+.special-h {
+    font-family: "Alegreya", serif;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.special-h3 {
+    font-family: "Alegreya", serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.footer-h3 {
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer-p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    color: #969696;
+    line-height: 1.9;
+}
+
+.container {
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.home .container {
+    padding: 20px;
+}
+
+.logo {
+    width: 175px;
+}
+
+a.float {
+    float: left;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 13px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #ac987a;
+    transition: 0.2s;
+}
+
+.btn1:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.btn1:hover a {
+    color: #333333;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn2:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.btn2:hover a {
+    color: #333333;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+.home {
+    background-image: url(../images/Bakery_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-text {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.home-text h1 {
+    font-weight: 300;
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.home-text p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.home-text .text {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.home-text .text-margin {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-opacity {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.home-button {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px 25px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+}
+
+.btn1 {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #8e7754;
+
+}
+
+.btn2 {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.014);
+    border-radius: 5px;
+}
+
+.home-button a {
+    text-decoration: none;
+}
+
+.who-we-are .container {
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.who-we-are .img {
+    display: inline-block;
+    width: 50%;
+}
+
+.who-we-are .img img {
+    width: 100%;
+}
+
+.who-we-are h2 {
+    font-family: "Alegreya", serif;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.who-we-are .special-p {
+    color: #686868;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.9;
+}
+
+.who-we-are h2+p {
+    margin-bottom: 30px;
+}
+
+.text-box {
+    font-family: "Alegreya Sans", sans-serif;
+    display: inline-block;
+    width: 43%;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+i+p {
+    display: inline-block;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.icon i {
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    color: #8e7754;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.location .container {
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.location-text {
+    display: inline-block;
+    width: 43%;
+    margin-right: 164px;
+    margin-top: 30px;
+}
+
+.location-img {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+}
+
+.location-img img {
+    width: 100%;
+}
+
+.location-text h2+p {
+    margin-bottom: 20px;
+}
+
+.baking-text {
+    text-align: center;
+}
+
+.card {
+    float: left;
+    text-align: center;
+    width: 32%;
+    margin-right: calc(4% / 2);
+}
+
+.card_3 {
+    margin-right: 0px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.baking-text p {
+    margin-bottom: 50px;
+}
+
+.baking .container {
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.baking h2 {
+    margin-top: 0;
+}
+
+.contact i {
+    border: 2px solid transparent;
+    color: white;
+    background-color: #8e7754;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-information {
+    float: left;
+    width: 42%;
+    margin-right: 10%;
+}
+
+.contact-map {
+    float: left;
+    width: 48%;
+}
+
+.contact-map iframe {
+    width: 100%;
+}
+
+.contact .container {
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.contact-text h2 {
+    margin-top: 0;
+}
+
+.contact-text h2+p {
+    margin-bottom: 20px;
+}
+
+.contact-text p+p {
+    margin-bottom: 20px;
+}
+
+.footer .container {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.footer .first-section {
+    background-color: #403d38;
+}
+
+.footer .first-section .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer .about-us {
+    float: left;
+    width: 22%;
+    margin-right: calc(12% /3);
+}
+
+.footer .why-we-are {
+    float: left;
+    width: 22%;
+    margin-right: calc(12% /3);
+}
+
+.footer .opening-hours {
+    float: left;
+    width: 22%;
+    margin-right: calc(12% /3);
+}
+
+.footer .contact-details {
+    float: left;
+    width: 22%;
+    margin-right: 0;
+}
+
+.footer i {
+    color: #969696;
+    margin-right: 5px;
+}
+
+.footer .box {
+    border-bottom: 0.2px solid #9696962d;
+    padding: 10px 0;
+}
+
+.footer .box:last-child {
+    border-bottom: 0;
+}
+
+.footer .contact-details .box .dot {
+    width: 90%;
+}
+
+.footer .contact-details .dot-box i {
+    vertical-align: top;
+}
+
+.footer .contact-details .box i {
+    margin-right: 10px;
+}
+
+.about-us h3+p {
+    margin-bottom: 20px;
+}
+
+.second-section .container {
+    margin-top: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.footer .second-section {
+    background-color: #353330;
+    text-align: center;
+}
+
+.footer .second-section p {
+    color: #777777;
+    font-size: 15px;
+    margin: 20px 0 30px;
+}
+
+.footer .second-section .icons .icon {
+    display: inline;
+}
+
+.footer .second-section .icons .icon i {
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    color: #8c8a86;
+    font-size: 18px;
+    background-color: #484540;
+    border-radius: 20px;
+}
