@@ -1,0 +1,227 @@
+@media screen and (max-width: 479px) {
+  .grid-container {
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  }
+  .grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    .content {
+      h1 {
+        font-size: 10vw;
+      }
+    }
+  }
+  .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    .content {
+      width: 90%;
+    }
+    .image {
+      align-self: center;
+      position: relative;
+      left: -4%;
+    }
+  }
+  .grid-item3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .grid-item6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+  .grid-item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    .left-section {
+      width: 100%;
+      max-width: none;
+      margin-bottom: 34px;
+      .image {
+        left: -115%;
+        width: 200%;
+        margin-top: 40px;
+      }
+    }
+    .right-section {
+      width: 100%;
+    }
+  }
+  .grid-item8 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+  .grid-item7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+  }
+  .grid-item5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    .bottom-section {
+      width: 70%;
+    }
+  }
+  .grid-item9 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    h3 {
+      width: 70%;
+      text-align: center;
+    }
+  }
+  .grid-item10 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    padding-bottom: 1.875rem;
+    flex-direction: column;
+    h3 {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+    }
+    .image {
+      position: relative;
+      left: -20%;
+      margin-bottom: -8%;
+    }
+  }
+}
+
+@media screen and (min-width: 479px) and (max-width: 992px) {
+  .grid-container {
+    grid-template-rows: auto 1fr 1fr 1fr auto auto auto auto;
+  }
+  .grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    .content {
+      h1 {
+        font-size: 35px;
+        line-height: 1.4em;
+      }
+    }
+  }
+  .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    .content {
+      width: 30%;
+    }
+    .image {
+      align-self: flex-end;
+    }
+  }
+  .grid-item3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .grid-item6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+  .grid-item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    .right-section {
+      width: 40%;
+    }
+  }
+  .grid-item8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .grid-item7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+  .grid-item5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    .bottom-section {
+      width: 80%;
+    }
+  }
+  .grid-item9 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    h3 {
+      width: 70%;
+      text-align: center;
+    }
+  }
+  .grid-item10 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    align-items: center;
+    h3 {
+      width: 70%;
+      margin-left: 20%;
+    }
+    .image {
+      position: relative;
+      left: -15%;
+      width: 271px;
+    }
+  }
+}
