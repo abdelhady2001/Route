@@ -1,0 +1,49 @@
+/* Global CSS Classes  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  --default-font: Impact, sans-serif;
+  --paragraph-font: 'Times New Roman', sans-serif;
+  --button-font: Arial, sans-serif;
+  --default-color: black;
+}
+
+
+
+body {
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  font-size: 35px;
+  margin: 35px 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+button {
+  font-family: var(--button-font);
+  font-size: 13.3333px;
+  width: 250px;
+  height: 80px;
+  padding: 1px 6px;
+  background-color: #0000FF;
+  color: white;
+}
+
+button:hover {
+  background-color: #008000;
+}
